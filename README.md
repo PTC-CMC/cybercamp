@@ -1,12 +1,12 @@
-# cybercamp
-Rapid overview of molecular simulation and necessary tools
+# Cybercamp
+The cybercamp is rapid overview of molecular simulation and the underlying tools.
 
 ## Overview
 This repository is designed to provide users the resources to quickly
 get up to speed with molecular simulations. This will not only include
 information needed to better understand simulations, but it will also
 provide specific information for workflow management, "sandboxed" development
-environments, python specific scientific packages, etc.
+environments, python specific scientific packages, etc.  
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ visualization tools
     * For molecular visualization, a common choice is 
 [VMD](http://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD)
     * A common pythonic choice for data visualization is 
-[Matplotlib](https://matplotlib.org/)
+[Matplotlib](https://matplotlib.org/) and can easily be installed via anaconda
 
 
 ### Installing
@@ -77,10 +77,36 @@ Activate the environment
 ```
 source activate simulation35
 ```
+## Content
 
-## Authors
+### Computational Basics
+The following links provide an overview of the use of the unix/linux shell, Python, and plotting using matplotlib. 
+* Introduction to the Unix shell: http://swcarpentry.github.io/shell-novice/
+* Introduction to Python:  http://swcarpentry.github.io/python-novice-inflammation/
+* Plotting and Programming in Python: http://swcarpentry.github.io/python-novice-gapminder/
+* Analysis and plotting Python scripts: https://github.com/PTC-CMC/plotting
 
-* **Justin Gilmer** - *Initial design/development*
+### Molecular Modeling and Simulation
+* [Introduction to Simulation](intro_to_sim.ipynb)
+* [Introduction to Molecular Dynamics](Introduction to Molecular Dynamics.ipynb)
+* [Neighborlists and Dangerous Builds](Neighborlists and Dangerous Builds.ipynb)
+
+### Other resources
+* Introduction to version control with git: http://swcarpentry.github.io/git-novice/
+* Using Jupyter notebooks:
+  * http://jupyter.readthedocs.io/en/latest/
+  * https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/
+  * https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook
+* Brief guides on GitHub and git workflows: https://guides.github.com/
+* Introduction to version control with git: http://swcarpentry.github.io/git-novice/
+* Full list of software carpentry lessons: https://software-carpentry.org/lessons/
+* Bevan Lab GROMACS Tutorials: http://www.bevanlab.biochem.vt.edu/Pages/Personal/justin/gmx-tutorials/
+
+
+## Primary Authors
+
+* **Christopher R. Iacovella**      
+* **Justin Gilmer** 
 
 ## License
 
