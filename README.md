@@ -88,7 +88,7 @@ The following links provide an overview of the use of the unix/linux shell, Pyth
 
 ### Molecular Modeling and Simulation
 * [Introduction to Simulation](intro_to_sim.ipynb)
-* [Introduction to Molecular Dynamics](Introduction to Molecular Dynamics.ipynb)
+* [Introduction to Molecular Dynamics](Introduction%20to%20Molecular%20Dynamics.ipynb)
 * [Neighborlists and Dangerous Builds](Neighborlists and Dangerous Builds.ipynb)
 
 ### Other resources
