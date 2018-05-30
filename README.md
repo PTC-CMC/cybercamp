@@ -89,7 +89,7 @@ The following links provide an overview of the use of the unix/linux shell, Pyth
 ### Molecular Modeling and Simulation
 * [Introduction to Simulation](intro_to_sim.ipynb)
 * [Introduction to Molecular Dynamics](Introduction%20to%20Molecular%20Dynamics.ipynb)
-* [Neighborlists and Dangerous Builds](Neighborlists and Dangerous Builds.ipynb)
+* [Neighborlists and Dangerous Builds](Neighborlists%20and%20Dangerous%20Builds.ipynb)
 
 ### Other resources
 * Introduction to version control with git: http://swcarpentry.github.io/git-novice/
