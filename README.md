@@ -110,6 +110,7 @@ The following links provide an overview of the use of the unix/linux shell, Pyth
 
 * **Christopher R. Iacovella**      
 * **Justin Gilmer** 
+* **Andrew Z. Summers**
 
 ## License
 
