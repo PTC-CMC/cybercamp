@@ -65,13 +65,13 @@ the packages needed to build systems, run simulations, and
 analyze the data.
 
 ```
-conda create -n simulation35 python=3.5 mbuild foyer hoomd matplotlib signac signac-flow fresnel gsd freud jupyter
+conda create -n simulation36 python=3.6 mbuild foyer hoomd matplotlib signac signac-flow fresnel gsd freud jupyter
 ```
 
 Activate the environment
 
 ```
-conda activate simulation35
+conda activate simulation36
 ```
 ## Content
 
