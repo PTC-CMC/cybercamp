@@ -65,13 +65,16 @@ the packages needed to build systems, run simulations, and
 analyze the data.
 
 ```
-conda create -n simulation36 python=3.6 mbuild foyer hoomd matplotlib signac signac-flow fresnel gsd freud jupyter
+conda create -n simulation36 python=3.6 mbuild foyer hoomd matplotlib signac signac-flow fresnel gsd freud jupyter py3dmol
 ```
 
 Activate the environment
 
 ```
 conda activate simulation36
+
+# install openbabel now, to prevent segmentation faults trying to install it above
+conda install -y -c conda-forge openbabel
 ```
 ## Content
 
