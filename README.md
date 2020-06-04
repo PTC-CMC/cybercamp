@@ -11,7 +11,7 @@ environments, python specific scientific packages, etc.
 ## Getting Started
 
 ### Prerequisites
-* [Anaconda](https://www.anaconda.com/download)
+* [miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/)
 
 	* A python package mangement tool, useful for creating clean, reproducible
 development environments
@@ -42,40 +42,39 @@ visualization tools
 To get a working development environment that uses the `MoSDeF` 
 toolkit, `HOOMD-Blue` for simulation, `Matplotlib` for data 
 visualization, and `signac` and `signac-flow` for workflow
-management, we will use `Anaconda` we installed earlier.
+management, we will use `conda` we installed earlier.
 
-Update `Anaconda` and `conda`
+Update `conda`
 
-```
+```bash
 conda update conda
 ```
-```
-conda update anaconda
-```
 
-Add the `mosdef`, `conda-forge`, `glotzer`, `omnia` channels
+Add the `mosdef`, `conda-forge`, and `omnia` channels
 for `conda` to search through when installing packages.
 
-```
+```bash
 conda config --add channels mosdef
 conda config --add channels conda-forge
-conda config --add channels glotzer
 conda config --add channels omnia
 ```
 
-Create a new python 3.5 development environment named `simulation35` 
-that includes
+Create a new python 3.6 development environment named `simulation36` 
+that includes many of
 the packages needed to build systems, run simulations, and
 analyze the data.
 
 ```
-conda create -n simulation35 python=3.5 mbuild foyer hoomd matplotlib signac signac-flow fresnel gsd
+conda create -n simulation36 python=3.6 mbuild foyer hoomd matplotlib signac signac-flow fresnel gsd freud jupyter py3dmol
 ```
 
 Activate the environment
 
 ```
-source activate simulation35
+conda activate simulation36
+
+# install openbabel now, to prevent segmentation faults trying to install it above
+conda install -y -c conda-forge openbabel
 ```
 ## Content
 
@@ -103,7 +102,7 @@ The following links provide an overview of the use of the unix/linux shell, Pyth
 * Brief guides on GitHub and git workflows: https://guides.github.com/
 * Introduction to version control with git: http://swcarpentry.github.io/git-novice/
 * Full list of software carpentry lessons: https://software-carpentry.org/lessons/
-* Bevan Lab GROMACS Tutorials: http://www.bevanlab.biochem.vt.edu/Pages/Personal/justin/gmx-tutorials/
+* Bevan Lab GROMACS Tutorials: http://www.mdtutorials.com/gmx/
 
 
 ## Primary Authors
