@@ -1,0 +1,22 @@
+name: cybercamp
+channels:
+  - conda-forge
+dependencies:
+  - python <= 3.8
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - fresnel
+  - gsd
+  - hoomd
+  - freud
+  - mbuild
+  - foyer
+  - gmso
+  - signac
+  - signac-flow
+  - unyt
+  - pandas
+  - jupyter
+  - jupyterlab
