@@ -20,3 +20,4 @@ dependencies:
   - pandas
   - jupyter
   - jupyterlab
+  - ipython == 7.10.0
