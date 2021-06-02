@@ -21,3 +21,5 @@ dependencies:
   - jupyter
   - jupyterlab
   - ipython == 7.10.0
+  - py3dmol
+  - nglview
