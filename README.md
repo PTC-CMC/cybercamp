@@ -50,31 +50,25 @@ Update `conda`
 conda update conda
 ```
 
-Add the `mosdef`, `conda-forge`, and `omnia` channels
-for `conda` to search through when installing packages.
+Add the `conda-forge` channels for `conda` to search through when installing packages.
 
 ```bash
-conda config --add channels mosdef
 conda config --add channels conda-forge
-conda config --add channels omnia
 ```
 
-Create a new python 3.6 development environment named `simulation36` 
+Create a new python  environment named `cybercamp2022` 
 that includes many of
 the packages needed to build systems, run simulations, and
 analyze the data.
 
 ```
-conda create -n simulation36 python=3.6 mbuild foyer hoomd matplotlib signac signac-flow fresnel gsd freud jupyter py3dmol
+conda create -n cybercamp2022 mbuild foyer hoomd matplotlib signac signac-flow fresnel openbabel jupyter jupyterlab
 ```
 
 Activate the environment
 
 ```
-conda activate simulation36
-
-# install openbabel now, to prevent segmentation faults trying to install it above
-conda install -y -c conda-forge openbabel
+conda activate cybercamp2022
 ```
 ## Content
 
@@ -86,7 +80,7 @@ The following links provide an overview of the use of the unix/linux shell, Pyth
 * Analysis and plotting Python scripts: https://github.com/PTC-CMC/plotting
 
 ### Molecular Modeling and Simulation
-* [Introduction to Simulation](intro_to_sim.ipynb)
+* [Introduction to Simulation](Introduction%20to%20Simulation.ipynb)
 * [Introduction to Molecular Dynamics](Introduction%20to%20Molecular%20Dynamics.ipynb)
 * [Anatomy of a Script File](Anatomy%20of%20a%20Script%20File.ipynb)
 * [Neighborlists and Dangerous Builds](Neighborlists%20and%20Dangerous%20Builds.ipynb)
