@@ -62,7 +62,7 @@ the packages needed to build systems, run simulations, and
 analyze the data.
 
 ```
-conda create -n cybercamp2022 mbuild foyer hoomd matplotlib signac signac-flow fresnel openbabel jupyter jupyterlab
+conda create -n cybercamp2022 mbuild foyer hoomd matplotlib py3Dmol gsd  signac signac-flow fresnel openbabel jupyter jupyterlab
 ```
 
 Activate the environment
@@ -81,8 +81,15 @@ The following links provide an overview of the use of the unix/linux shell, Pyth
 
 ### Molecular Modeling and Simulation
 * [Introduction to Simulation](Introduction%20to%20Simulation.ipynb)
+ * General overview of simulation
+ * Discussion of common systems studied with molecular simulation
+ * Interactive demo/exercises of a simple simulation of the motion of a ball
 * [Introduction to Molecular Dynamics](Introduction%20to%20Molecular%20Dynamics.ipynb)
+  * Overview of models and methods used in molecular dynamics simulation
 * [Anatomy of a Script File](Anatomy%20of%20a%20Script%20File.ipynb)
+  * Discussion of common input parameters needed by molecular dynamics simulation codes
+  * Example script files for HOOMD-Blue and LAMMPS
+  * Hands on demo/exercises performing simple LJ simulation using HOOMD-Blue
 * [Neighborlists and Dangerous Builds](Neighborlists%20and%20Dangerous%20Builds.ipynb)
 * [Timestep Optimization](Timestep%20Optimization.ipynb)
 * [Introduction to GROMACS](simulation/gromacs/Introduction%20to%20GROMACS.ipynb)
