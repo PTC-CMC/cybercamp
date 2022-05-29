@@ -1,4 +1,4 @@
-name: cybercamp
+name: cybercamp38
 channels:
   - conda-forge
 dependencies:
