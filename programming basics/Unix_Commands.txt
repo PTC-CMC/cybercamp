@@ -1,0 +1,20 @@
+Commonly use Unix Commands. The command is in quotes
+
+"man" - view manual pages for Unix commands
+"clear" - clear screen
+"ls" - list files and directories
+"pwd" - print working directory
+"cd" - change directory
+"mkdir" - make new directory
+"cp" - copy files
+"rm" - remove files and directories
+"mv" - rename or move files and directories to another location
+"cat" - concatenate files and show contents to the standard output
+"head" - show the first 10 lines of text file
+"grep" - search for patterns in text files
+"ssh" - Secure SHell – encrypted remote access client
+"^c" - control c, kills a currently running process
+"vim" - allows you to open and edit a file in a vim style text editor
+
+More Commands!
+https://www.unixtutorial.org/basic-unix-commands
