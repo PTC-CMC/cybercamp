@@ -38,8 +38,7 @@ def render(snapshot):
     geometry.position[:] = snapshot.particles.position[:]
     geometry.outline_width = 0.04
     box = fresnel.geometry.Box(scene, [L, L, L, 0, 0, 0], box_radius=.02)
-    geometry.color[snapshot.particles.typeid == 'A'] = blue;
-    geometry.color[snapshot.particles.typeid == 'B'] = orange;
+
     scene.lights = [
         fresnel.light.Light(direction=(0, 0, 1),
                             color=(0.8, 0.8, 0.8),
