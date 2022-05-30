@@ -91,6 +91,11 @@ The following links provide an overview of the use of the unix/linux shell, Pyth
   * Example script files for HOOMD-Blue and LAMMPS
   * Hands on demo/exercises performing simple LJ simulation using HOOMD-Blue
 * [Neighborlists and Dangerous Builds](Neighborlists%20and%20Dangerous%20Builds.ipynb)
+  * Discussion of a basic neighborlist
+  * Hands on example of changing parameters and their impact
+* [Predicting Phase Behavior of a LJ system using MD](Predicting%20Phase%20Behavior.ipynb)
+  * Hands on exercises performing MD simulations at different statepoints
+  * Basic analysis of simulation results
 * [Timestep Optimization](Timestep%20Optimization.ipynb)
 * [Introduction to GROMACS](simulation/gromacs/Introduction%20to%20GROMACS.ipynb)
 
