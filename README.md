@@ -75,7 +75,7 @@ conda activate cybercamp2022
 ### Computational Basics
 * [Unix Basics](programming%20basics/Unix.ipynb)
 * [Conda and Git](programming%20basics/Conda%20and%20Git.ipynb)
-* [Introduction to Python Basics](programming%20basics/Python Built-ins.ipynb)
+* [Python: Basics](programming%20basics/Python%20Built-ins.ipynb)
 * [Python: Working with Numpy](programming%20basics/Python%20Useful%20Packages-%20Numpy.ipynb)
 * [Python: Working with Matplotlib](programming%20basics/Python%20Useful%20Packages-%20Matplotlib.ipynb)
 * [Python: Introduction to Pandas](programming%20basics/Pandas_Introduction.ipynb.ipynb)
