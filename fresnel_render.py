@@ -16,6 +16,8 @@ tracer = fresnel.tracer.Path(device=device, w=300, h=300)
 FRESNEL_MIN_VERSION = packaging.version.parse("0.13.0")
 FRESNEL_MAX_VERSION = packaging.version.parse("0.14.0")
 
+blue = fresnel.color.linear([0.25,0.5,1])*0.9;
+orange = fresnel.color.linear([1.0,0.714,0.169])*0.9
 
 def render(snapshot):
     if ('version' not in dir(fresnel) or packaging.version.parse(
