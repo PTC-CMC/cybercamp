@@ -73,11 +73,18 @@ conda activate cybercamp2022
 ## Content
 
 ### Computational Basics
-The following links provide an overview of the use of the unix/linux shell, Python, and plotting using matplotlib. 
+* [Unix Basics](programming%20basics/Unix.ipynb)
+* [Conda and Git](programming%20basics/Conda%20and%20Git.ipynb)
+* [Introduction to Python Basics](programming%20basics/Python Built-ins.ipynb)
+* [Python: Working with Numpy](programming%20basics/Python%20Useful%20Packages-%20Numpy.ipynb)
+* [Python: Working with Matplotlib](programming%20basics/Python%20Useful%20Packages-%20Matplotlib.ipynb)
+* [Python: Introduction to Pandas](programming%20basics/Pandas_Introduction.ipynb.ipynb)
+* [Python: Pandas-Seaborn](programming%20basics/Python%20Useful%20Packages-%20Pandas-Seaborn.ipynb)
+
+The following links are to Software Carpentry courses on the use of the unix/linux shell, Python, and plotting using matplotlib. 
 * Introduction to the Unix shell: http://swcarpentry.github.io/shell-novice/
 * Introduction to Python:  http://swcarpentry.github.io/python-novice-inflammation/
 * Plotting and Programming in Python: http://swcarpentry.github.io/python-novice-gapminder/
-* Analysis and plotting Python scripts: https://github.com/PTC-CMC/plotting
 
 ### Molecular Modeling and Simulation
 * [Introduction to Simulation](Introduction%20to%20Simulation.ipynb)
@@ -96,8 +103,6 @@ The following links provide an overview of the use of the unix/linux shell, Pyth
 * [Predicting Phase Behavior of a LJ system using MD](Predicting%20Phase%20Behavior.ipynb)
   * Hands on exercises performing MD simulations at different statepoints
   * Basic analysis of simulation results
-* [Timestep Optimization](Timestep%20Optimization.ipynb)
-* [Introduction to GROMACS](simulation/gromacs/Introduction%20to%20GROMACS.ipynb)
 
 ### Other resources
 * Introduction to version control with git: http://swcarpentry.github.io/git-novice/
