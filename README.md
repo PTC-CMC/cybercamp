@@ -81,9 +81,9 @@ The following links provide an overview of the use of the unix/linux shell, Pyth
 
 ### Molecular Modeling and Simulation
 * [Introduction to Simulation](Introduction%20to%20Simulation.ipynb)
- * General overview of simulation
- * Discussion of common systems studied with molecular simulation
- * Interactive demo/exercises of a simple simulation of the motion of a ball
+  * General overview of simulation
+  * Discussion of common systems studied with molecular simulation
+  * Interactive demo/exercises of a simple simulation of the motion of a ball
 * [Introduction to Molecular Dynamics](Introduction%20to%20Molecular%20Dynamics.ipynb)
   * Overview of models and methods used in molecular dynamics simulation
 * [Anatomy of a Script File](Anatomy%20of%20a%20Script%20File.ipynb)
